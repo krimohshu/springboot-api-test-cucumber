@@ -1,24 +1,8 @@
 {
   "folders": [
     {
-      "name": "📦 API Test App (Existing)",
-      "path": "springboot-api-test-cucumber"
-    },
-    {
-      "name": "🛍️ Product Service",
-      "path": "product-service"
-    },
-    {
-      "name": "👤 User Service",
-      "path": "user-service"
-    },
-    {
-      "name": "📋 Order Service",
-      "path": "order-service"
-    },
-    {
-      "name": "🔧 Common Utilities",
-      "path": "microservices-common"
+      "name": "Spring_APP_and_Tests",
+      "path": "."
     }
   ],
   "settings": {

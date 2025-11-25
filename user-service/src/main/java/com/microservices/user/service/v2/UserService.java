@@ -12,15 +12,13 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import lombok.RequiredArgsConstructor;
-import com.microservices.user.dto.v2.BulkUserRequest;
-import com.microservices.user.dto.v2.PagedResponse;
-import com.microservices.user.dto.v2.UserFilterRequest;
-import com.microservices.user.dto.v2.UserStatsResponse;
-import com.microservices.user.dto.v2.UserRequest;
-import com.microservices.user.dto.v2.UserResponse;
-import com.microservices.user.exception.UserNotFoundException;
-import com.microservices.user.model.User;
-import com.microservices.user.repository.UserRepository;
+import main.java.com.microservices.user.dto.v2.BulkUserRequest;
+import main.java.com.microservices.user.dto.v2.PagedResponse;
+import main.java.com.microservices.user.dto.v2.UserFilterRequest;
+import main.java.com.microservices.user.dto.v2.UserStatsResponse;
+import main.java.com.microservices.user.exception.UserNotFoundException;
+import main.java.com.microservices.user.model.User;
+import main.java.com.microservices.user.repository.UserRepository;
 
 @Service("userServiceV2")
 @RequiredArgsConstructor

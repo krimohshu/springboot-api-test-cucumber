@@ -7,11 +7,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import lombok.RequiredArgsConstructor;
-import com.microservices.user.dto.v1.UserRequest;
-import com.microservices.user.dto.v1.UserResponse;
-import com.microservices.user.exception.UserNotFoundException;
-import com.microservices.user.model.User;
-import com.microservices.user.repository.UserRepository;
+import main.java.com.microservices.user.exception.UserNotFoundException;
+import main.java.com.microservices.user.model.User;
+import main.java.com.microservices.user.repository.UserRepository;
 
 @Service("userServiceV1")
 @RequiredArgsConstructor

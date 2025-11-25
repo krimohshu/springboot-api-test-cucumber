@@ -10,9 +10,6 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import com.microservices.user.dto.v1.UserRequest;
-import com.microservices.user.dto.v1.UserResponse;
-import com.microservices.user.service.v1.UserService;
 
 @RestController("userControllerV1")
 @RequestMapping("/api/v1/users")

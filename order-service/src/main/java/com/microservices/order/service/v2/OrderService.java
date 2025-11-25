@@ -12,7 +12,6 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import lombok.RequiredArgsConstructor;
 import com.microservices.order.dto.v2.BulkOrderRequest;
 import com.microservices.order.dto.v2.OrderFilterRequest;
 import com.microservices.order.dto.v2.OrderRequest;
@@ -22,6 +21,8 @@ import com.microservices.order.dto.v2.PagedResponse;
 import com.microservices.order.exception.OrderNotFoundException;
 import com.microservices.order.model.Order;
 import com.microservices.order.repository.OrderRepository;
+
+import lombok.RequiredArgsConstructor;
 
 @Service("orderServiceV2")
 @RequiredArgsConstructor

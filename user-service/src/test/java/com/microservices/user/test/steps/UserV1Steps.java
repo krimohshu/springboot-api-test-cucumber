@@ -10,7 +10,7 @@ import io.cucumber.java.en.When;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import lombok.RequiredArgsConstructor;
-import com.microservices.user.test.context.TestContext;
+import test.java.com.microservices.user.test.context.TestContext;
 
 @RequiredArgsConstructor
 public class UserV1Steps {

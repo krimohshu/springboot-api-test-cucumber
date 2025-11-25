@@ -1,12 +1,16 @@
 package com.microservices.order.test.steps;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.microservices.order.test.context.TestContext;
+
 import io.cucumber.java.en.Then;
 import io.restassured.response.Response;
-import com.microservices.order.test.context.TestContext;
 
 /**
  * Common step definitions shared across all test scenarios

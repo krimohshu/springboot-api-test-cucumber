@@ -11,13 +11,10 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import com.microservices.user.dto.v2.BulkUserRequest;
-import com.microservices.user.dto.v2.PagedResponse;
-import com.microservices.user.dto.v2.UserFilterRequest;
-import com.microservices.user.dto.v2.UserStatsResponse;
-import com.microservices.user.dto.v2.UserRequest;
-import com.microservices.user.dto.v2.UserResponse;
-import com.microservices.user.service.v2.UserService;
+import main.java.com.microservices.user.dto.v2.BulkUserRequest;
+import main.java.com.microservices.user.dto.v2.PagedResponse;
+import main.java.com.microservices.user.dto.v2.UserFilterRequest;
+import main.java.com.microservices.user.dto.v2.UserStatsResponse;
 
 @RestController("userControllerV2")
 @RequestMapping("/api/v2/users")
